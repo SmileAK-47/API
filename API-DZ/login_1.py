@@ -1,4 +1,4 @@
-from keyword_API.keyword_1 import keyDemo
+from API_keyword.keyword_1 import keyDemo
 import configparser
 import yaml
 import json
@@ -8,7 +8,7 @@ conf = configparser.ConfigParser()
 dz = keyDemo()
 
 # 获取测试数据 创建data
-file = open('../api_data/login.yaml', 'r')
+file = open('../API_data/login.yaml', 'r')
 data = yaml.load(file, yaml.FullLoader)
 # print(data)
 # 测试数据
