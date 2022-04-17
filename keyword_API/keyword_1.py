@@ -10,4 +10,3 @@ class keyDemo(object):
     def post(self,url,headers=None,data=None):
         return requests.post(url=url,headers=headers,json=data)
 
-#测试123
