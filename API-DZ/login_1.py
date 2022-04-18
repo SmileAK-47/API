@@ -1,11 +1,11 @@
-from API_keyword.keyword_1 import keyDemo
+from API_keyword.keyword_method import method
 import configparser
 import yaml
 import json
 
 # 实例化需要的内容
 conf = configparser.ConfigParser()
-dz = keyDemo()
+dz = method()
 
 # 获取测试数据 创建data
 file = open('../API_data/login.yaml', 'r')

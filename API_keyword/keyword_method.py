@@ -2,7 +2,7 @@
 
 import requests
 
-class keyDemo(object):
+class method(object):
     #定义get
     def get(self,url,params=None,headers=None):
         return requests.get(url=url,params=params,headers=headers)
