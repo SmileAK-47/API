@@ -8,7 +8,7 @@ conf = configparser.ConfigParser()
 dz = method()
 
 # 获取测试数据 创建data
-file = open('../API_data/login.yaml', 'r')
+file = open('../API_data/login_test.yaml', 'r')
 data = yaml.load(file, yaml.FullLoader)
 # print(data)
 # 测试数据
