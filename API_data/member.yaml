@@ -1,5 +1,5 @@
 member:
-  url:
+  path/prod/system/user/getInfoAss
   headers:
   token:
   text:

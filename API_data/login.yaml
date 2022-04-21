@@ -1,4 +1,4 @@
-demo:
+login:
   path: prod/auth/login
   data:
     phone: '13900000076'
